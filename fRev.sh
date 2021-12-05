@@ -14,7 +14,7 @@ haaa(){
 	target="$1"
 	rev=$(curl -s -m 30 -H "Connection: close" -H "User-Agent: FayReverse" "http://reverse.fay.gg:18/?ip=$target" | jq -r '.data')
 	if [[ $(echo $rev | jq -r '.total') -gt 0 ]]; then
-		echo $(echo $rev | jq -r '.domain[]') >> reverse.txt
+		echo $rev | jq -r '.domain[]' >> reverse.txt
 		echo -e "[${YL}`date +"%H:%M:%S"`${NC}] ${CY}$target ${NC}=>\t${GR}$(echo $rev | jq -r '.total') ${NC}result"
 	else
 		echo -e "[${YL}`date +"%H:%M:%S"`${NC}] ${CY}$target ${NC}=>\t${RD}0 ${NC}result"
