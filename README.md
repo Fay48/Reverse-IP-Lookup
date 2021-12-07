@@ -12,6 +12,7 @@ This tools is free and the endpoint is public. The public endpoint have rate lim
 
 - Find all hosted domain on same ip.
 - Multi processing
+- Only domain (without subdomain)
 - Mass target
 - Rate limited request (slowly)
 - Unlimited Result
@@ -19,12 +20,12 @@ This tools is free and the endpoint is public. The public endpoint have rate lim
 ## Preview
 ![screenshot](https://raw.githubusercontent.com/Fay48/Reverse-IP-Lookup/main/Screen%20Shot%202021-12-05%20at%2010.32.22.png)
 
-## Installation
+## Installation & Usage
 - `sudo apt install jq / brew install jq / sudo yum install jq`
 - `git clone https://github.com/Fay48/Reverse-IP-Lookup`
 - `cd Reverse-IP-Lookup`
 - `chmod +x fRev.sh`
-- `./fRev.sh list-target.txt`
+- `./fRev.sh list-ip.txt`
 
 ## Donation
 Your donation is very useful for my server maintenance and development
