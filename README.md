@@ -8,6 +8,8 @@ Note : This project can stop at anytime without notice.
 
 This tools is free and the endpoint is public. The public endpoint have rate limit request. If u want to be faster u can buy private endpoint. Contact me if u interested.
 
+Private premiun endpoint is only $5/month
+
 ## Features
 
 - Find all hosted domain on same ip.
