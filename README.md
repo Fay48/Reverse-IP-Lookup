@@ -10,6 +10,14 @@ This tools is free and the endpoint is public. The public endpoint have rate lim
 
 Private premiun endpoint is only $5/month
 
+## Tested on
+
+- OS X
+- Ubuntu/Debian
+- Windows Subsystem Linux (Maybe Cmder or gitbash is not supported. And why u not go to opensource????)
+- Fedora OS
+- CentOS
+
 ## Features
 
 - Find all hosted domain on same ip.
