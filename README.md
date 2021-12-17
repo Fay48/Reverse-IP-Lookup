@@ -15,7 +15,7 @@ This tools is free and the endpoint is public. The public endpoint have rate lim
 - Only domain (without subdomain)
 - Mass target
 - Rate limited request (slowly)
-- Unlimited Result
+- Limited 500 Results per IP
 
 ## Preview
 ![screenshot](https://raw.githubusercontent.com/Fay48/Reverse-IP-Lookup/main/Screen%20Shot%202021-12-05%20at%2010.32.22.png)
