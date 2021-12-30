@@ -23,4 +23,4 @@ haaa(){
 export -f haaa
 clear
 echo -e "Target load : $(cat $list | wc -l)"
-sort -u $list | xargs -P 3 -n1 bash -c 'haaa "$@"' _ 2>/dev/null
+sort -u $list | xargs -P 10 -n1 bash -c 'haaa "$@"' _ 2>/dev/null
