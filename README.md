@@ -2,7 +2,7 @@
 
 Free and limited Reverse IP Lookup. Find all hosted domain on same ip.
 
-Premium Tools Price : $20
+Premium Tools Price : $22
 
 Note : This project can stop at anytime without notice.
 
