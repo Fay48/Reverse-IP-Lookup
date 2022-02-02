@@ -2,7 +2,10 @@
 
 Free and limited Reverse IP Lookup. Find all hosted domain on same ip.
 
-Premium Tools Price : $22
+Premium Tools Price :
+
+- Bash : $22 (Very good for all linux)
+- Python3 : $29
 
 Note : This project can stop at anytime without notice.
 
